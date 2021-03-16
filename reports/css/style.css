@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+
+/*	page text font and background color	*/
+body {
+	font-family: verdana;
+	background-color: #DDDDDD;		/*#DECBA4;*/
+	color: black;
+}
+
+/*	heading and table content alignment	*/
+h1, .table {
+	text-align: center;
+}
+
+/*	heading background color	*/
+h1 span{
+	background-color: white;
+}
+
+/*	table timestamp alignment	*/
+h4 {
+	margin-left: 15%;
+	margin-bottom: -0.1%;
+}
+
+/*	table alignment and border type	*/
+table {
+	width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+	border-collapse: collapse;
+}
+
+/*	table and cells border length	*/
+table, th, td {
+	border: 1px solid black;
+}
+
+/*	table title headers font size	*/
+thead th {
+	font-size: 21px;
+}
+
+/*	table content headers font size	*/
+tbody th {
+	font-size: 18px;
+}
+
+/*	table content font size	*/
+tbody td, tfoot td {
+	font-size: 17px;
+}
+
+/*	table footer font	*/
+tfoot td {
+	font-weight: bold;
+}
